@@ -85,6 +85,16 @@ aside {
   color: white;
 }
 
+aside figure {
+  width: 92%;
+  margin: 1rem;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
 /* ========
     MAIN
     ======== */
