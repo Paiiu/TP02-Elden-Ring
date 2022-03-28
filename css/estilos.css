@@ -7,15 +7,28 @@
   border: 0;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
 h2,
 h3,
 p {
   margin: 0.5rem;
 }
 
-main,
-aside {
+main p,
+aside p {
   font-family: sans-serif;
+  font-size: 1.2rem;
 }
 
 /* =========
@@ -79,7 +92,7 @@ section {
     =========*/
 aside {
   background-color: #6f472a;
-  height: 80vh;
+  min-height: 80vh;
   min-width: 25%;
   max-width: 25%;
   color: white;
@@ -100,7 +113,7 @@ figcaption {
     ======== */
 main {
   background-color: #bebab9;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 main ul {
@@ -113,6 +126,15 @@ main ul {
 
 main article {
   display: inline-block;
+}
+
+iframe {
+  margin: 1rem;
+  float: right;
+}
+
+main cite {
+  margin: 0.5em;
 }
 
 /* ========
